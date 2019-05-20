@@ -1,3 +1,7 @@
+  .bg-dark{
+    color: #191E23;
+  }
+
  .navbar {
   min-height: 80px;
   background-image: none;
@@ -23,7 +27,7 @@
 }
 
 .navbar-custom {
-    background-color: black;
+    background-color: #191E23;
     margin-bottom: 60px;
 }
 /* change the brand and text color */
@@ -41,10 +45,17 @@
     color: #ffffff;
 }
 
-/* .mx-auto {
- margin-right: auto !important;
- margin-left: auto !important;
-} */
+.mx-auto {
+ /* margin-right: auto !important;
+ margin-left: auto !important; */
+ font-size:26px;
+ margin-bottom: 0px;
+}
+
+.job-title{
+  font-size:12px;
+  margin-top:-5px;
+}
 
 .navbar-nav {
     width: 100%;
