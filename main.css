@@ -81,6 +81,13 @@ body{
   color:white;
 }
 
+hr.style1 {
+	border-top: 1px solid #3FC1C9;
+  margin-bottom:15px;
+  margin-top:15px;
+
+
+}
 
 /* p{
   color: white;
@@ -92,6 +99,7 @@ h2{
   text-align: center;
   margin-top: 25px;
   margin-bottom:26px;
+
 }
 
 a{
