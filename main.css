@@ -1,12 +1,19 @@
-  .bg-dark{
-    color: #191E23;
-  }
+
+
+body{
+  background-color: #191E23;
+  padding:30px;
+  font-family: 'Nunito', sans-serif;
+  padding-top:22px;
+}
 
  .navbar {
   min-height: 80px;
   background-image: none;
   /* background-color: red; */
-
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
 }
 
 
@@ -28,7 +35,7 @@
 
 .navbar-custom {
     background-color: #191E23;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -53,7 +60,7 @@
 }
 
 .job-title{
-  font-size:12px;
+  font-size:14px;
   margin-top:-5px;
 }
 
@@ -64,4 +71,29 @@
         float: none;
         display: inline-block;
     }
+}
+
+.card-body{
+  background-color: rgba(0,0,0,0.6);
+}
+
+.card-text .text-muted{
+  color:white;
+}
+
+
+/* p{
+  color: white;
+} */
+
+h2{
+  color: white;
+  font-size:20px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom:26px;
+}
+
+a{
+  color: #3FC1C9;
 }
